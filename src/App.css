@@ -1,0 +1,13 @@
+/* If you want some extra app-specific CSS */
+
+.container {
+  max-width: 1200px;
+}
+
+.shadow-card {
+  @apply shadow-md rounded-lg overflow-hidden;
+}
+
+.text-primary {
+  @apply text-indigo-600;
+}
